@@ -242,6 +242,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14eb6d61028aded47b5e017893bd105d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogUI: {fileID: 637479987}
+  path: Dialog/TestingDialog/TestDialog.json
 --- !u!114 &631047947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -316,11 +318,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59aa6ab370dff0c4da96f90ea88d4a4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path: Dialog/TestingDialog/SimpleDialogLongText.json
-  uiContainer: {fileID: 0}
-  dialogText: {fileID: 0}
-  optionPrefab: {fileID: 0}
-  optionContainer: {fileID: 0}
+  uiContainer: {fileID: 148470327}
+  dialogText: {fileID: 1060279196}
+  optionPrefab: {fileID: 8087274523029626807, guid: e99b71b378fb1174bb6b947189571cc2, type: 3}
+  optionContainer: {fileID: 1058399898}
 --- !u!114 &637479988
 MonoBehaviour:
   m_ObjectHideFlags: 0

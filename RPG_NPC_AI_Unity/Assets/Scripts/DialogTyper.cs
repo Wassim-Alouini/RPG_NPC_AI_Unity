@@ -33,10 +33,13 @@ public class DialogTyper : MonoBehaviour
         StartCoroutine(TypeDialogPage());
     }
 
-    public void ShowNextPage()
+    public bool ShowNextPage()
     {
         if (wordIndex >= words.Length - 1)
         {
+            NPCDialogManager.RaiseFinishedDialog();
+            return false;
+            
         }
         if (!isTyping && isWaitingForNext)
         {
@@ -46,6 +49,7 @@ public class DialogTyper : MonoBehaviour
             dialogText.maxVisibleCharacters = 0;
             StartCoroutine(TypeDialogPage());
         }
+        return true;
     }
 
     private IEnumerator TypeDialogPage()
