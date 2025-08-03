@@ -1,0 +1,9 @@
+{
+  "dialogs": [
+    {
+      "id": "intro",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta nunc nec elit viverra, ac sollicitudin sapien lacinia. Sed luctus dignissim nisi, nec rhoncus libero. Quisque rutrum, enim nec dignissim viverra, arcu erat tempor tellus, nec egestas purus nisi eget nibh. Proin lacinia mauris et risus cursus, at feugiat diam tristique. Duis in scelerisque nulla. Vivamus ac augue a erat vehicula viverra. Cras sodales tellus nec malesuada porttitor. Nam ut lectus vehicula, cursus leo nec, gravida odio.",
+      "options": []
+    }
+  ]
+}

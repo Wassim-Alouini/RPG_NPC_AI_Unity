@@ -1,0 +1,22 @@
+{
+  "dialogs": [
+    {
+      "id": "intro",
+      "text": "Hello, traveler. What do you seek?",
+      "options": [
+        { "optionText": "Adventure", "nextDialogId": "adventure" },
+        { "optionText": "Wisdom", "nextDialogId": "wisdom" }
+      ]
+    },
+    {
+      "id": "adventure",
+      "text": "Then venture forth into the wild!",
+      "options": []
+    },
+    {
+      "id": "wisdom",
+      "text": "Knowledge comes at a price...",
+      "options": []
+    }
+  ]
+}
